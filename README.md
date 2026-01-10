@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my journey as an aspiring Data
 
 ## 🚀 Live Demo
 
-Coming Soon! <!-- Will be deployed on GitHub Pages -->
+Coming Soon! <!-- Will be deployed on Vercel -->
 
 ## 📋 Table of Contents
 
@@ -217,7 +217,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Dheeraj Sai** - Aspiring Data Scientist & MERN Stack Developer
 
 - **Email**: dheerajsai242@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/dheeraj-sai-goutham
+- **LinkedIn**: https://www.linkedin.com/in/dheeraj-sai-gouthamgit commit -m "complete portfolio"
 - **GitHub**: https://github.com/DheerajSai6
 
 

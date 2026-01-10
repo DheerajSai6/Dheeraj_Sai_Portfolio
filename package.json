@@ -2,15 +2,12 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dheerajsai24.github.io/DheerajSai-Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.0.0",
@@ -20,7 +17,6 @@
     "@heroicons/react": "^2.2.0",
     "autoprefixer": "^10.4.21",
     "framer-motion": "^12.23.12",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
