@@ -217,7 +217,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Dheeraj Sai** - Aspiring Data Scientist & MERN Stack Developer
 
 - **Email**: dheerajsai242@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/dheeraj-sai-gouthamgit commit -m "complete portfolio"
+- **LinkedIn**: https://www.linkedin.com/in/dheeraj-sai-goutham
 - **GitHub**: https://github.com/DheerajSai6
 
 
