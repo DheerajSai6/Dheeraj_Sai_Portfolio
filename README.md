@@ -1,6 +1,6 @@
 # Dheeraj Sai - Portfolio Website
 
-A modern, responsive portfolio website showcasing my journey as an aspiring Data Scientist and MERN Stack Developer. Built with React, Vite, and Tailwind CSS, featuring smooth animations and a clean, professional design.
+A modern, responsive portfolio website showcasing my journey as an aspiring Data Scientist and MERN Stack Developer. Built with React 19, Vite, and custom CSS, featuring smooth animations with Framer Motion and a clean, professional design.
 
 ## 🚀 Live Demo
 
@@ -26,28 +26,27 @@ This portfolio website represents my professional journey as an aspiring Data Sc
 ## ✨ Features
 
 - **Responsive Design**: Fully responsive across all devices and screen sizes
-- **Modern Animations**: Smooth animations using Framer Motion
-- **Interactive UI**: Engaging user interface with hover effects and transitions
-- **Type Animation**: Dynamic text effects in hero section
-- **Sectioned Layout**: Well-organized sections including Hero, About, Skills, Projects, Services, Education, and Contact
-- **Professional Design**: Clean, modern design with consistent branding
-- **Fast Performance**: Built with Vite for optimal performance
-- **SEO Friendly**: Optimized for search engines
+- **Smooth Animations**: Powered by Framer Motion for fluid transitions
+- **Interactive UI**: Engaging user interface with hover effects and scroll animations
+- **Dynamic Type Animation**: Eye-catching typing effects in hero section
+- **Functional Navigation**: Smooth scroll to sections with active state highlighting
+- **Professional Skills Showcase**: Categorized technical expertise with real-world applications
+- **Project Portfolio**: Featured projects with GitHub links and technology stacks
+- **Fast Performance**: Built with Vite 7 for lightning-fast development and optimized builds
+- **Clean Code**: Custom CSS architecture for maintainability and performance
 
 ## 🛠️ Technologies Used
 
-- **Frontend Framework**: React 18
-- **Build Tool**: Vite
-- **Styling**: 
-  - Tailwind CSS
-  - Custom CSS
-- **Animations**: Framer Motion
-- **Type Effects**: React Type Animation
-- **Icons**: Font Awesome / React Icons
+- **Frontend Framework**: React 19.1.1
+- **Build Tool**: Vite 7.1.2
+- **Styling**: Custom CSS (modular component-based)
+- **Animations**: Framer Motion 12.23.12
+- **Type Effects**: React Type Animation 3.2.0
+- **Routing**: React Router DOM 7.8.1
+- **Icons**: Font Awesome & Heroicons
 - **Development Tools**:
-  - ESLint
-  - PostCSS
-  - Autoprefixer
+  - ESLint (code quality)
+  - Git & GitHub (version control)
 
 ## 🚀 Getting Started
 
@@ -138,8 +137,6 @@ Portfolio/
 │   │       ├── HeroSection.css
 │   │       ├── ProjectsSection.jsx
 │   │       ├── ProjectsSection.css
-│   │       ├── ServicesSection.jsx
-│   │       ├── ServicesSection.css
 │   │       ├── SkillsSection.jsx
 │   │       └── SkillsSection.css
 │   ├── styles/
@@ -151,7 +148,6 @@ Portfolio/
 ├── eslint.config.js
 ├── index.html
 ├── package.json
-├── tailwind.config.js
 ├── vite.config.js
 └── README.md
 ```
@@ -159,45 +155,49 @@ Portfolio/
 ## 📄 Sections
 
 ### 🏠 Hero Section
-- Dynamic typing animation
+- Dynamic typing animation with role transitions
 - Professional introduction
-- Call-to-action buttons
-- Profile image with animations
+- Functional CTA buttons (View Portfolio, Hire Me)
+- Smooth scroll navigation
+- Profile image with hover effects
 
 ### 👨‍💻 About Section
-- Personal introduction and background
-- Professional statistics
-- Animated profile image
-- Skills overview
+- Personal background and journey
+- Professional statistics and achievements
+- Animated reveal effects
+- Compelling narrative about data science and development
 
 ### 💼 Skills Section
-- Technical skills showcase
-- Categorized skill sets
-- Progress indicators
-- Interactive hover effects
+- **6 Categorized Skill Sets**:
+  - Full-Stack Web Development (MERN)
+  - Data Science & Analytics
+  - AI & Machine Learning
+  - Core Programming & DSA
+  - Databases
+  - Developer Tools
+- Production-ready and project-level expertise indicators
+- Real-world application descriptions
+- Interactive hover animations
 
 ### 🚀 Projects Section
-- Featured project showcase
-- Project descriptions and technologies
-- Live demo and GitHub links
-- Responsive project cards
-
-### 🛠️ Services Section
-- Professional services offered
-- Service descriptions
-- Icon representations
-- Hover animations
+- **Featured Projects**:
+  - AI Resume Builder (React, Node.js, Gemini API)
+  - AI-Powered Food Delivery (MERN Stack)
+  - E-Commerce Platform (MERN Stack)
+- Technology stack badges
+- GitHub repository links
+- Responsive card layout with equal heights
 
 ### 🎓 Education Section
-- Academic background
-- Achievements and certifications
-- Timeline format
+- Academic credentials
 - Institution details
+- Timeline-based presentation
+- Achievements and coursework
 
 ### 📞 Contact Section
-- Contact form
-- Social media links
-- Location information
+- Email and social media links
+- GitHub, LinkedIn, Instagram profiles
+- Professional contact information
 - Interactive elements
 
 ## 🤝 Contributing
@@ -228,8 +228,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🙏 Acknowledgments
 
 - Thanks to the React and Vite communities for excellent documentation
-- Framer Motion for amazing animation capabilities
-- Tailwind CSS for utility-first styling
+- Framer Motion for powerful animation capabilities
 - All the open-source contributors who made this project possible
 
 ---
