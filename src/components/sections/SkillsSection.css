@@ -195,22 +195,146 @@
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .skills {
-    padding: 6rem 0;
+    padding: 3rem 0;
+  }
+
+  .skills__header {
+    margin-bottom: 2.5rem;
+    padding: 0 1.25rem;
   }
 
   .skills__header h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .skills__header-decoration {
+    margin: 1rem 0;
+  }
+
+  .skills__header p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0;
   }
 
   .skills__categories {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
   }
 
   .skill-category {
     padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  .skill-category__header {
+    margin-bottom: 1.5rem;
+    gap: 0.875rem;
+  }
+
+  .skill-category__icon {
+    font-size: 1.75rem;
+    padding: 0.875rem;
+    border-radius: 10px;
+  }
+
+  .skill-category h3 {
+    font-size: 1.35rem;
+    line-height: 1.3;
   }
 
   .skill-category__grid {
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .skill-card {
+    border-radius: 10px;
+  }
+
+  .skill-card__content {
+    padding: 1.25rem;
+  }
+
+  .skill-card__title {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .skill-card__description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.875rem;
+  }
+
+  .skill-card__level {
+    font-size: 0.825rem;
+    padding: 0.4rem 0.85rem;
+  }
+
+  .skill-card__level-dot {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    padding: 2.5rem 0;
+  }
+
+  .skills__header {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .skills__header h2 {
+    font-size: 1.75rem;
+  }
+
+  .skills__header p {
+    font-size: 0.95rem;
+  }
+
+  .skills__categories {
+    gap: 1.25rem;
+    padding: 0 0.75rem;
+  }
+
+  .skill-category {
+    padding: 1.25rem;
+  }
+
+  .skill-category__icon {
+    font-size: 1.5rem;
+    padding: 0.75rem;
+  }
+
+  .skill-category h3 {
+    font-size: 1.2rem;
+  }
+
+  .skill-category__grid {
+    gap: 0.875rem;
+  }
+
+  .skill-card__content {
+    padding: 1.125rem;
+  }
+
+  .skill-card__title {
+    font-size: 1.05rem;
+  }
+
+  .skill-card__description {
+    font-size: 0.875rem;
+    line-height: 1.55;
+  }
+
+  .skill-card__level {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.75rem;
   }
 }

@@ -125,11 +125,132 @@
 }
 
 @media (max-width: 768px) {
+  .projects {
+    padding: 3rem 0;
+  }
+
+  .projects__header {
+    margin-bottom: 2.5rem;
+    padding: 0 1.25rem;
+  }
+
   .projects__header h2 {
     font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .projects__header-line {
+    width: 50px;
+    height: 3px;
   }
   
   .projects__grid {
     grid-template-columns: 1fr;
+    gap: 1.75rem;
+    padding: 0 1rem;
+  }
+
+  .project-card {
+    border-radius: 14px;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .project-card__icon-container {
+    padding: 1.5rem;
+    min-height: 110px;
+    border-radius: 14px 14px 0 0;
+  }
+
+  .project-card__icon {
+    font-size: 2.75rem;
+  }
+
+  .project-card__content {
+    padding: 1.5rem;
+  }
+
+  .project-card__content h3 {
+    font-size: 1.2rem;
+    min-height: auto;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+  }
+
+  .project-card__content p {
+    font-size: 1rem;
+    min-height: auto;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
+  }
+
+  .project-card__tech {
+    gap: 0.5rem;
+    min-height: auto;
+    margin-bottom: 0.75rem;
+  }
+
+  .tech-tag {
+    font-size: 0.85rem;
+    padding: 5px 12px;
+  }
+
+  .project-card__link {
+    font-size: 0.95rem;
+    padding-top: 0.75rem;
+    margin-top: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 2.5rem 0;
+  }
+
+  .projects__header {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .projects__header h2 {
+    font-size: 1.75rem;
+  }
+
+  .projects__grid {
+    gap: 1.5rem;
+    padding: 0 0.75rem;
+  }
+
+  .project-card__icon-container {
+    padding: 1.25rem;
+    min-height: 100px;
+  }
+
+  .project-card__icon {
+    font-size: 2.5rem;
+  }
+
+  .project-card__content {
+    padding: 1.25rem;
+  }
+
+  .project-card__content h3 {
+    font-size: 1.125rem;
+  }
+
+  .project-card__content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .tech-tag {
+    font-size: 0.8rem;
+    padding: 4px 10px;
+  }
+
+  .project-card__link {
+    font-size: 0.9rem;
   }
 }

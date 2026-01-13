@@ -108,7 +108,128 @@
 }
 
 @media (max-width: 767px) {
+  .about {
+    padding: 3rem 0;
+  }
+
+  .about__content {
+    gap: 2.5rem;
+  }
+
+  .about__image-container {
+    order: 1;
+  }
+
+  .about__image-wrapper {
+    max-width: 280px;
+  }
+
+  .about__image {
+    height: 280px;
+    border-radius: 20px;
+  }
+
+  .about__image-blob {
+    filter: blur(50px);
+  }
+
+  .about__text {
+    order: 2;
+    text-align: center;
+    padding: 0 1.25rem;
+  }
+
   .about__text h2 {
     font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+
+  .about__line {
+    margin: 0 auto 1.5rem;
+    width: 50px;
+  }
+
+  .about__text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    text-align: left;
+    padding: 0 0.5rem;
+  }
+
+  .about__stats {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .stat-card {
+    padding: 1.25rem 1rem;
+    transition: transform 0.2s ease;
+  }
+
+  .stat-card:active {
+    transform: scale(0.98);
+  }
+
+  .stat-card__number {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-card__label {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 2.5rem 0;
+  }
+
+  .about__content {
+    gap: 2rem;
+  }
+
+  .about__text {
+    padding: 0 1rem;
+  }
+
+  .about__text h2 {
+    font-size: 1.75rem;
+  }
+
+  .about__text p {
+    font-size: 0.975rem;
+    line-height: 1.75;
+    padding: 0;
+  }
+
+  .about__image-wrapper {
+    max-width: 240px;
+  }
+
+  .about__image {
+    height: 240px;
+  }
+
+  .about__stats {
+    gap: 0.75rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stat-card {
+    padding: 1rem 0.75rem;
+  }
+
+  .stat-card__number {
+    font-size: 1.75rem;
+  }
+
+  .stat-card__label {
+    font-size: 0.8rem;
   }
 }
