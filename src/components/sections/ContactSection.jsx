@@ -21,8 +21,8 @@ const ContactSection = () => {
     {
       icon: faGithub,
       label: 'GitHub',
-      value: 'DheerajSai24',
-      link: 'https://github.com/DheerajSai24'
+      value: 'DheerajSai6',
+      link: 'https://github.com/DheerajSai6'
     },
     {
       icon: faLinkedinIn,

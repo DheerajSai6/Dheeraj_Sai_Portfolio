@@ -175,47 +175,21 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 0.9rem;
   border-radius: 20px;
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.5px;
+  background: rgba(74, 222, 128, 0.1);
+  color: var(--color-primary);
 }
 
 .skill-card__level-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-}
-
-.skill-card__level--advanced {
-  background: rgba(46, 213, 115, 0.1);
-  color: #2ed573;
-}
-
-.skill-card__level--advanced .skill-card__level-dot {
-  background: #2ed573;
-  box-shadow: 0 0 8px rgba(46, 213, 115, 0.5);
-}
-
-.skill-card__level--intermediate {
-  background: rgba(86, 128, 233, 0.1);
-  color: #5680e9;
-}
-
-.skill-card__level--intermediate .skill-card__level-dot {
-  background: #5680e9;
-  box-shadow: 0 0 8px rgba(86, 128, 233, 0.5);
-}
-
-.skill-card__level--learning {
-  background: rgba(255, 159, 67, 0.1);
-  color: #ff9f43;
-}
-
-.skill-card__level--learning .skill-card__level-dot {
-  background: #ff9f43;
-  box-shadow: 0 0 8px rgba(255, 159, 67, 0.5);
+  background: var(--color-primary);
+  box-shadow: 0 0 8px rgba(74, 222, 128, 0.5);
 }
 
 /* Responsive Design */

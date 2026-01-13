@@ -4,6 +4,22 @@ import './HeroSection.css';
 import profileImage from '../../assets/Dheeraj.jpeg';
 
 const HeroSection = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const offset = 80;
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
+
   return (
     <section id="home" className="hero">
       <div className="container hero__container">
@@ -66,6 +82,7 @@ const HeroSection = () => {
               transition={{ delay: 0.9, duration: 0.5 }}
             >
               <motion.button
+                onClick={() => scrollToSection('projects')}
                 className="btn btn-primary"
                 whileHover={{ scale: 1.05, translateY: -2 }}
                 whileTap={{ scale: 0.95 }}
@@ -84,6 +101,7 @@ const HeroSection = () => {
                 Download Resume 📄
               </motion.a>
               <motion.button
+                onClick={() => scrollToSection('contact')}
                 className="btn btn-outline"
                 whileHover={{ scale: 1.05, translateY: -2 }}
                 whileTap={{ scale: 0.95 }}

@@ -29,7 +29,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Update active section
-      const sections = ['home', 'about', 'skills', 'education', 'projects', 'contact'];
+      const sections = ['home', 'about', 'skills', 'projects', 'education', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -84,8 +84,8 @@ const Navbar = () => {
           <NavLink href="#home" onClick={scrollToSection} active={activeSection === 'home'}>Home</NavLink>
           <NavLink href="#about" onClick={scrollToSection} active={activeSection === 'about'}>About Me</NavLink>
           <NavLink href="#skills" onClick={scrollToSection} active={activeSection === 'skills'}>Skills</NavLink>
-          <NavLink href="#education" onClick={scrollToSection} active={activeSection === 'education'}>Education</NavLink>
           <NavLink href="#projects" onClick={scrollToSection} active={activeSection === 'projects'}>Projects</NavLink>
+          <NavLink href="#education" onClick={scrollToSection} active={activeSection === 'education'}>Education</NavLink>
           <NavLink href="#contact" onClick={scrollToSection} active={activeSection === 'contact'}>Contact</NavLink>
         </div>
 
@@ -113,8 +113,8 @@ const Navbar = () => {
               <NavLink href="#home" onClick={scrollToSection} active={activeSection === 'home'} mobile>Home</NavLink>
               <NavLink href="#about" onClick={scrollToSection} active={activeSection === 'about'} mobile>About Me</NavLink>
               <NavLink href="#skills" onClick={scrollToSection} active={activeSection === 'skills'} mobile>Skills</NavLink>
-              <NavLink href="#education" onClick={scrollToSection} active={activeSection === 'education'} mobile>Education</NavLink>
               <NavLink href="#projects" onClick={scrollToSection} active={activeSection === 'projects'} mobile>Projects</NavLink>
+              <NavLink href="#education" onClick={scrollToSection} active={activeSection === 'education'} mobile>Education</NavLink>
               <NavLink href="#contact" onClick={scrollToSection} active={activeSection === 'contact'} mobile>Contact</NavLink>
             </div>
           </motion.div>

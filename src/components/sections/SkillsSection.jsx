@@ -17,133 +17,133 @@ const SkillsSection = () => {
 
   const skillCategories = [
     {
-      category: "Data Science & AI",
-      icon: "🤖",
+      category: "Full-Stack Web Development (MERN)",
+      icon: "🚀",
       skills: [
         {
-          name: "Machine Learning",
-          description: "Basic algorithms and model training",
-          level: "Intermediate"
+          name: "React.js & Next.js",
+          description: "✔ Built responsive dashboards and eCommerce UIs\n✔ Implemented SSR, client-side routing, and state management",
+          level: "Production-ready"
         },
         {
-          name: "Data Analytics",
-          description: "Data visualization and statistical analysis",
-          level: "Intermediate"
-        },
-        {
-          name: "Pandas & NumPy",
-          description: "Data manipulation and numerical computing",
-          level: "Intermediate"
-        }
-      ]
-    },
-    {
-      category: "Programming",
-      icon: "💻",
-      skills: [
-        {
-          name: "Python",
-          description: "Data analysis, scripting, and backend development",
-          level: "Advanced"
-        },
-        {
-          name: "Java",
-          description: "Object-oriented programming and application development",
-          level: "Intermediate"
-        },
-        {
-          name: "JavaScript",
-          description: "Modern ES6+, async programming, and DOM manipulation",
-          level: "Advanced"
-        }
-      ]
-    },
-    {
-      category: "Web Development",
-      icon: "🌐",
-      skills: [
-        {
-          name: "React.js",
-          description: "Building modern, responsive web applications",
-          level: "Advanced"
-        },
-        {
-          name: "Node.js",
-          description: "Server-side JavaScript and API development",
-          level: "Advanced"
-        },
-        {
-          name: "Express.js",
-          description: "RESTful API design and middleware implementation",
-          level: "Intermediate"
+          name: "Node.js & Express.js",
+          description: "✔ Developed REST APIs with JWT authentication\n✔ Built middleware for role-based access control",
+          level: "Production-ready"
         },
         {
           name: "MongoDB",
-          description: "NoSQL database design and integration",
-          level: "Intermediate"
+          description: "✔ Schema design for MERN applications\n✔ CRUD operations and aggregation pipelines",
+          level: "Production-ready"
+        },
+        {
+          name: "JavaScript (ES6+)",
+          description: "✔ Async/await, Promises, array methods\n✔ DOM manipulation and event handling",
+          level: "Production-ready"
         }
       ]
     },
     {
-      category: "Frontend Tools",
-      icon: "🎨",
+      category: "Data Science & Analytics",
+      icon: "📊",
       skills: [
         {
-          name: "HTML",
-          description: "Semantic markup and accessibility",
-          level: "Advanced"
+          name: "Pandas & NumPy",
+          description: "✔ Data cleaning, transformation, and analysis\n✔ Statistical computations and preprocessing",
+          level: "Project-level"
         },
         {
-          name: "CSS",
-          description: "Modern layouts, animations, and responsive design",
-          level: "Advanced"
+          name: "Data Visualization",
+          description: "✔ Created interactive charts and dashboards\n✔ Statistical analysis and insights generation",
+          level: "Project-level"
         },
         {
-          name: "Tailwind",
-          description: "Utility-first CSS framework for rapid development",
-          level: "Intermediate"
+          name: "SQL",
+          description: "✔ Writing complex queries and data extraction\n✔ Database analysis and reporting",
+          level: "Project-level"
+        },
+        {
+          name: "Excel",
+          description: "✔ Advanced formulas, pivot tables, and data analysis\n✔ Creating reports and visualizations",
+          level: "Production-ready"
         }
       ]
     },
     {
-      category: "Database",
+      category: "AI & Machine Learning",
+      icon: "🤖",
+      skills: [
+        {
+          name: "Machine Learning & Scikit-learn",
+          description: "✔ Built classification and regression models\n✔ Feature engineering and hyperparameter tuning",
+          level: "Project-level"
+        },
+        {
+          name: "LLMs (Large Language Models)",
+          description: "✔ Integrated OpenAI/Gemini APIs for AI features\n✔ Prompt engineering and model integration",
+          level: "Project-level"
+        },
+        {
+          name: "RAG (Retrieval-Augmented Generation)",
+          description: "✔ Building RAG systems with vector databases\n✔ Context-aware AI applications",
+          level: "Project-level"
+        }
+      ]
+    },
+    {
+      category: "Core Programming & DSA",
+      icon: "💻",
+      skills: [
+        {
+          name: "Data Structures & Algorithms (Java)",
+          description: "✔ Arrays, Strings, LinkedLists, Trees, Stack, Queues, Graphs, DP\n✔ Problem-solving on LeetCode and HackerRank",
+          level: "Project-level"
+        },
+        {
+          name: "Python",
+          description: "✔ Data preprocessing with Pandas & NumPy\n✔ Scripting and automation",
+          level: "Production-ready"
+        },
+        {
+          name: "Java",
+          description: "✔ Object-oriented programming and design patterns\n✔ Backend development and application logic",
+          level: "Project-level"
+        }
+      ]
+    },
+    {
+      category: "Databases",
       icon: "🗄️",
       skills: [
         {
           name: "MySQL",
-          description: "Relational database design and queries",
-          level: "Intermediate"
+          description: "✔ Relational database design and normalization\n✔ Complex queries and joins",
+          level: "Project-level"
         },
         {
           name: "Firebase",
-          description: "Real-time database and authentication",
-          level: "Intermediate"
-        },
-        {
-          name: "MongoDB",
-          description: "Document database modeling and operations",
-          level: "Intermediate"
+          description: "✔ Real-time database for live data sync\n✔ Authentication and storage integration",
+          level: "Project-level"
         }
       ]
     },
     {
-      category: "Other Tools",
+      category: "Developer Tools",
       icon: "🛠️",
       skills: [
         {
           name: "Git & GitHub",
-          description: "Version control and collaboration",
-          level: "Advanced"
+          description: "✔ Version control and team collaboration\n✔ Branch management and PR workflows",
+          level: "Production-ready"
+        },
+        {
+          name: "HTML & CSS",
+          description: "✔ Semantic markup and accessibility\n✔ Flexbox, Grid, animations, and responsive design",
+          level: "Production-ready"
         },
         {
           name: "REST APIs",
-          description: "API design and integration",
-          level: "Advanced"
-        },
-        {
-          name: "DevOps",
-          description: "CI/CD pipelines and deployment",
-          level: "Learning"
+          description: "✔ API design, testing, and integration\n✔ Authentication and error handling",
+          level: "Project-level"
         }
       ]
     }
@@ -224,9 +224,7 @@ const SkillsSection = () => {
                           <h4 className="skill-card__title">{skill.name}</h4>
                           <p className="skill-card__description">{skill.description}</p>
                           <div className="skill-card__level-container">
-                            <div 
-                              className={`skill-card__level skill-card__level--${skill.level.toLowerCase()}`}
-                            >
+                            <div className="skill-card__level">
                               <span className="skill-card__level-dot"></span>
                               {skill.level}
                             </div>
@@ -238,6 +236,36 @@ const SkillsSection = () => {
                 </div>
               </motion.div>
             ))}
+          </motion.div>
+
+          {/* Proof of Skills Section */}
+          <motion.div
+            className="skills__proof"
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            transition={{ duration: 0.8, delay: 0.8 }}
+            style={{
+              marginTop: '3rem',
+              textAlign: 'center',
+              padding: '1.5rem',
+              borderRadius: '12px',
+              background: 'rgba(74, 222, 128, 0.05)',
+              border: '1px solid rgba(74, 222, 128, 0.2)'
+            }}
+          >
+            <p style={{ 
+              color: 'var(--color-text-muted)', 
+              fontSize: '0.95rem',
+              marginBottom: '0.5rem'
+            }}>
+              🧩 <strong style={{ color: 'var(--color-primary)' }}>Applied in real projects:</strong>
+            </p>
+            <p style={{ 
+              color: 'var(--color-text)', 
+              fontSize: '1rem'
+            }}>
+              MERN eCommerce Platform · AI Resume Builder · Online Food Delivery App
+            </p>
           </motion.div>
         </div>
       </div>

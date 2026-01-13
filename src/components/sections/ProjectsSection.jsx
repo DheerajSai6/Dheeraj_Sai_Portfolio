@@ -10,16 +10,18 @@ const ProjectsSection = () => {
       icon: '🛍️'
     },
     {
-      title: 'Blood Donation System',
-      description: 'Real-time donor management & hospital dashboard built with Firebase.',
-      tech: ['React', 'Firebase', 'Real-time DB'],
-      icon: '🩸'
+      title: 'AI Resume Builder',
+      description: 'AI powered full-stack MERN application that helps users create, manage, and download professional resumes with AI-powered assistance from Google\'s Gemini. Build impressive resumes quickly with intelligent suggestions.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Gemini API'],
+      icon: '📝',
+      github: 'https://github.com/DheerajSai6/AI_Resume_Builder_MERN'
     },
     {
-      title: 'Online Food Delivery',
-      description: 'MERN stack website with live tracking, restaurant discounts, and reviews.',
-      tech: ['MERN', 'Socket.io', 'Redux'],
-      icon: '🍔'
+      title: 'AI-Powered Food Delivery',
+      description: 'Full-stack MERN application with search & filter, shopping cart, user authentication, secure checkout, and modern responsive UI. Features AI-powered recommendations.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Gemini API'],
+      icon: '🍔',
+      github: 'https://github.com/DheerajSai6/AI-Powered_FoodDelivery_MERN'
     }
   ];
 
@@ -141,6 +143,22 @@ const ProjectsSection = () => {
                     </motion.span>
                   ))}
                 </motion.div>
+                {project.github && (
+                  <motion.a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-card__link"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 1.1 + index * 0.2, duration: 0.5 }}
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    View on GitHub →
+                  </motion.a>
+                )}
               </motion.div>
             </motion.div>
           ))}

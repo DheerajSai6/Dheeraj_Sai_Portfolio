@@ -16,8 +16,8 @@ function App() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
-        <EducationSection />
         <ProjectsSection />
+        <EducationSection />
         <ContactSection />
       </main>
       <Footer />
