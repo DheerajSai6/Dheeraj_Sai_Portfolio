@@ -115,6 +115,11 @@ const SkillsSection = () => {
       icon: "🗄️",
       skills: [
         {
+          name: "MongoDB",
+          description: "✔ NoSQL database design and document modeling\n✔ CRUD operations and aggregation pipelines",
+          level: "Production-ready"
+        },
+        {
           name: "MySQL",
           description: "✔ Relational database design and normalization\n✔ Complex queries and joins",
           level: "Project-level"
